@@ -26,9 +26,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9a9ee6d9-d762-4f1e-b61d-811383584845" name="Default Changelist" comment="Mysql DB 연결">
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webpack_backend/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/webpack_backend/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webpack_practice/config/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack_practice/config/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webpack_practice/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/webpack_practice/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webpack_practice/src/components/Test.vue" beforeDir="false" afterPath="$PROJECT_DIR$/webpack_practice/src/components/Test.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webpack_practice/src/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack_practice/src/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webpack_practice/src/router/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack_practice/src/router/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,6 +61,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="mysql" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -66,6 +70,7 @@
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="settings.editor.selected.configurable" value="database.main" />
     <property name="ts.external.directory.path" value="C:\Program Files\JetBrains\IntelliJ IDEA 2020.2.2\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
   </component>
   <component name="RebelAgentSelection">
@@ -75,19 +80,6 @@
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\mindslab\Desktop\project\study\vue\vue_practice\webpack_practice\src\assets" />
     </key>
-  </component>
-  <component name="RunManager">
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -111,6 +103,9 @@
       <workItem from="1613523808618" duration="19000" />
       <workItem from="1613630768107" duration="2433000" />
       <workItem from="1613634734752" duration="4770000" />
+      <workItem from="1613697156735" duration="6631000" />
+      <workItem from="1613957885190" duration="1198000" />
+      <workItem from="1615531212511" duration="802000" />
     </task>
     <task id="LOCAL-00001" summary="git 시작">
       <created>1613634802074</created>
@@ -126,7 +121,14 @@
       <option name="project" value="LOCAL" />
       <updated>1613639594541</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="-">
+      <created>1613697223086</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1613697223086</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -154,13 +156,23 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="git 시작" />
     <MESSAGE value="Mysql DB 연결" />
-    <option name="LAST_COMMIT_MESSAGE" value="Mysql DB 연결" />
+    <MESSAGE value="-" />
+    <option name="LAST_COMMIT_MESSAGE" value="-" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="-1325" y="183" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1613700777091">
+      <screen x="-1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="-1325" y="183" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1613700777091" />
+    <state x="-1751" y="101" width="1626" height="840" key="DiffContextDialog" timestamp="1613697530090">
+      <screen x="-1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="-1751" y="101" width="1626" height="840" key="DiffContextDialog/0.0.1920.1040/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1613697530090" />
     <state x="-1156" y="282" key="FileChooserDialogImpl" timestamp="1613523826500">
       <screen x="-1920" y="0" width="1920" height="1040" />
     </state>
@@ -175,15 +187,23 @@
       <screen x="-1920" y="0" width="1920" height="1040" />
     </state>
     <state x="-1236" y="222" key="RollbackChangesDialog/0.0.1920.1040/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1613638189028" />
-    <state x="-1444" y="90" width="956" height="733" key="find.popup" timestamp="1613636120091">
+    <state x="-1416" y="169" key="SettingsEditor" timestamp="1613700707619">
       <screen x="-1920" y="0" width="1920" height="1040" />
     </state>
-    <state x="-1444" y="90" width="956" height="733" key="find.popup/0.0.1920.1040/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1613636120091" />
+    <state x="-1416" y="169" key="SettingsEditor/0.0.1920.1040/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1613700707619" />
+    <state x="-1346" y="254" key="Vcs.Push.Dialog.v2" timestamp="1613697231183">
+      <screen x="-1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="-1346" y="254" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1613697231183" />
+    <state x="-1444" y="90" width="956" height="733" key="find.popup" timestamp="1613697926538">
+      <screen x="-1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="-1444" y="90" width="956" height="733" key="find.popup/0.0.1920.1040/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1613697926538" />
     <state x="2396" y="82" width="956" height="733" key="find.popup/1920.-8.1920.1040/0.0.1920.1040@1920.-8.1920.1040" timestamp="1612935954636" />
-    <state x="-1271" y="238" width="672" height="678" key="search.everywhere.popup" timestamp="1613638110245">
+    <state x="-1271" y="238" width="672" height="678" key="search.everywhere.popup" timestamp="1613700734176">
       <screen x="-1920" y="0" width="1920" height="1040" />
     </state>
-    <state x="-1271" y="238" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1613638110245" />
+    <state x="-1271" y="238" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1613700734176" />
     <state x="2569" y="230" width="672" height="678" key="search.everywhere.popup/1920.-8.1920.1040/0.0.1920.1040@1920.-8.1920.1040" timestamp="1612937355930" />
     <state x="649" y="238" width="672" height="678" key="search.everywhere.popup/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1613440618255" />
   </component>

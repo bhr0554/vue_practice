@@ -18,5 +18,10 @@ new Vue({
 
 new Vue({
   el: '#app2',
-  router
+  router,
+  methods: {
+    registUser: function () {
+      alert('')
+    }
+  }
 })
