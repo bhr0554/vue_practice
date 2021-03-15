@@ -3,6 +3,7 @@ var express = require('express');
 var path = require('path');
 var cookieParser = require('cookie-parser');
 var logger = require('morgan');
+var connection = require('./database/connection');
 
 var indexRouter = require('./routes/index');
 var usersRouter = require('./routes/users');
@@ -37,27 +38,5 @@ app.use(function(err, req, res, next) {
   res.status(err.status || 500);
   res.render('error');
 });
-
-/** DB연결 */
-var mysql = require('mysql');
-
-var connection = mysql.createConnection({
-  host: 'localhost',
-  port: 3306,
-  user: 'root',
-  password: 'data~secret!',
-  database: 'study_db'
-});
-
-connection.connect(function (err) {
-  if(err) {
-    console.error('mysql connection error');
-    console.error(err);
-    throw err;
-  } else {
-    console.log('mysql connection success');
-  }
-});
-/** //DB연결 */
 
 module.exports = app;

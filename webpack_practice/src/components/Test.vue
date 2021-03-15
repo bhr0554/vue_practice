@@ -23,7 +23,7 @@ export default {
   name: 'SIGNUP',
   methods: {
     registUser: function () {
-      axios.get('/registUser').then(res => {
+      axios.post('/registUser').then(res => {
         console.log(res)
       })
     }
