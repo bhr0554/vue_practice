@@ -1,5 +1,5 @@
 <template>
-  <form name="userFrm=">
+  <form name="userFrm">
     <div>
       <h3>회원 가입</h3>
       이 름 : <input type="text" name="userName"/><br/>
@@ -18,6 +18,11 @@
 </template>
 <script>
 export default {
-  name: 'SIGNUP'
+  name: 'SIGNUP',
+  methods: {
+    registUser: function () {
+      alert('얍')
+    }
+  }
 }
 </script>
