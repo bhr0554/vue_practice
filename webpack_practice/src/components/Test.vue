@@ -17,11 +17,15 @@
    </form>
 </template>
 <script>
+import axios from 'axios'
+
 export default {
   name: 'SIGNUP',
   methods: {
     registUser: function () {
-      alert('얍')
+      axios.get('/registUser').then(res => {
+        console.log(res)
+      })
     }
   }
 }
