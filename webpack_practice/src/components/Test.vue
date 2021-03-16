@@ -13,6 +13,7 @@
       </span><br/>
       연락처 : <span></span><br/>
       나 이 : <span></span><br/>
+      <button v-on:click="searchUser">조회</button>
     </div>
    </form>
 </template>
@@ -23,7 +24,12 @@ export default {
   name: 'SIGNUP',
   methods: {
     registUser: function () {
-      axios.post('/registUser').then(res => {
+      axios.get('/api/registUser').then(res => {
+        console.log(res)
+      })
+    },
+    searchUser: function () {
+      axios.get('/api/searchUser').then(res => {
         console.log(res)
       })
     }
