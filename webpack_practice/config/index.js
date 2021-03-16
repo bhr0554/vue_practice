@@ -10,16 +10,16 @@ module.exports = {
     // Paths
     assetsSubDirectory: 'static',
     assetsPublicPath: '/',
-    /*proxyTable: {
+    proxyTable: {
       '/api': {
-        targeyt: 'httpr://localhost:3000/api',
+        target: 'http://localhost:3000/api',
         changeOrigin: true,
         pathRewrite: {
           '^/api': ''
         }
       }
-    },*/
-    proxyTable: {},
+    },
+    /*proxyTable: {},*/
 
     // Various Dev Server settings
     host: 'konghyebin.com', // can be overwritten by process.env.HOST
